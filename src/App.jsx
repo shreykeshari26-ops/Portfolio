@@ -96,6 +96,35 @@ export default function App() {
             <a href="https://github.com/shreykeshari26-ops" target="_blank" className="text-blue-400">GitHub</a>
           </div>
 
+          <div className="grid md:grid-cols-2 gap-6">
+
+  {/* To Do */}
+  <div className="backdrop-blur-md bg-white/10 border border-white/20 p-6 rounded-xl hover:scale-105 transition">
+    <h3 className="text-xl font-semibold">To-Do App</h3>
+    <p className="text-gray-400 mt-2">
+      A simple and responsive task management app to add, delete and manage daily tasks efficiently.
+     </p>
+      <div className="flex gap-4 mt-4">
+      <a href="https://github.com/shreykeshari26-ops/todo-app" target="_blank" className="text-blue-400">GitHub</a>
+      <a href="https://shreykeshari26-ops.github.io/todo-app/" target="_blank" className="text-purple-400">Live</a>
+    </div>
+  </div>
+
+  {/* PLace Mind AI*/}
+      <div className="backdrop-blur-md bg-white/10 border border-white/20 p-6 rounded-xl hover:scale-105 transition">
+      <h3 className="text-xl font-semibold">PlaceMind AI</h3>
+      <p className="text-gray-400 mt-2">
+      AI-powered resume screening system that analyzes resumes, scores candidates, and suggests best matches using Google Gemini API.
+     </p>
+      <div className="flex gap-4 mt-4">
+      <a href="https://github.com/PlaceMinds/Bharatex-Hakathon" target="_blank" className="text-blue-400">GitHub</a>
+      <a href="https://bharatex-hakathon-pxq7fddary8sshuzok4uhd.streamlit.app/" className="text-purple-400">Live</a>
+    </div>
+  </div>
+
+</div>
+
+
         </div>
       </section>
 
